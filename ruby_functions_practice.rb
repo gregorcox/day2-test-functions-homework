@@ -74,3 +74,11 @@ end
 def volume_of_cube(length, breadth, height)
   return length * breadth * height
 end
+
+def volume_of_sphere(radius)
+  return (1.33 * 3.14 * (radius**3)).round(3)
+end
+
+def farenheit_to_celsius(farenheit)
+  return farenheit - 32 * 5/9
+end
