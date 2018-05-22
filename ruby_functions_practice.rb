@@ -70,3 +70,7 @@ def number_to_short_month_name(month_number)
     return "Oct"
   end
 end
+
+def volume_of_cube(length, breadth, height)
+  return length * breadth * height
+end
